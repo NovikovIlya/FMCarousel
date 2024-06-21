@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Carousel } from 'antd'
+import {  Carousel } from 'antd'
 import React from 'react'
 import imageOne from '../assets/desktop-image-hero-1.jpg'
 import imageTwo from '../assets/desktop-image-hero-2.jpg'
