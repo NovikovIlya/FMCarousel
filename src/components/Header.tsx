@@ -15,17 +15,9 @@ function Header() {
         { title: 'Manufactured with the best materials', text: 'Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office' }
     ]
 
-    const contentStyle: React.CSSProperties = {
-        margin: 0,
-        height: '160px',
-        color: '#fff',
-        lineHeight: '160px',
-        textAlign: 'center',
-        background: '#364d79',
-    };
+   
     function onChange(currentSlide: any) {
         setCount(currentSlide + 1)
-
     }
 
     return (
